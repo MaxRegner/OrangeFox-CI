@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Device
-export FOX_BRANCH="fox_9.0"
-export DT_LINK="https://gitlab.com/OrangeFox/device/beryllium.git -b fox_9.0"
+export FOX_BRANCH="fox_11.0"
+export DT_LINK="https://github.com/mohammad92/android_device_samsung_a12s -b android-11.0"
 
-export DEVICE="beryllium"
-export OEM="xiaomi"
+export DEVICE="a12s"
+export OEM="samsung"
 export TARGET="recoveryimage"
 
 export DT_PATH="device/$OEM/$DEVICE"
